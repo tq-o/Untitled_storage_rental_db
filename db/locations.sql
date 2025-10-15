@@ -1,8 +1,8 @@
 -- Location's schema definition
 DROP TABLE IF EXISTS locations;
 
-CREATE TABLE IF NOT EXISTS locations (
-    id SERIAL PRIMARY KEY,
+CREATE TABLE locations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     address VARCHAR(255),
     city VARCHAR(100),
